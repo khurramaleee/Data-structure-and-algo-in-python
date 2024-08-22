@@ -2,14 +2,14 @@ class sorting:
     def __init__(self):
         pass
 
-    def bubbleSort(self, arr):
+    def BubbleSort(self, arr):
         for i in range(len(arr)):
             for j in range(1, len(arr)):
                 if arr[j] < arr[j - 1]:
                     self.swap(arr, j, j - 1)
         return arr
 
-    def selectionSort(self, arr):
+    def SelectionSort(self, arr):
         for i in range(len(arr)):
             minimumIndex = i
             for j in range(i, len(arr)):
