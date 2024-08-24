@@ -7,5 +7,8 @@ arr = [8, 2, 4, 1, 3, 44]
 
 # sorting = sortingclass.sorting()
 # print(sorting.selectionSort(arr))
+# sorting = sortingclass.sorting()
+# print(sorting.InsertionSort(arr))
+
 sorting = sortingclass.sorting()
-print(sorting.InsertionSort(arr))
+print(sorting.MergeSort(arr))
